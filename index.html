@@ -11,34 +11,42 @@
     <title>Weather App</title>
 </head>
 
+
 <body>
     <header class="d-flex">
         <div class="header">
             <h1>Weather App</h1>
         </div>
     </header>
-    <div class="d-flex row">
+    
+    <div class="row">
         <div class="card col-4">
             <div class="card-body">
-                <h5 class="card-title">Search for a city:</h5>
+                <h5 class="card-title" id="side-title">Search for a city:</h5>
                 <input type="text" id="city-name" class="col-9" placeholder="Search . . .">
                 <a href="#" class="btn btn-primary col-9">Search</a>
             </div>
         </div>
         <div class="box">
-            
+            <ul id="box-ul">
+                <li class="li-one" id="not-list">City</li>
+                <li class="li-two" id="not-list">Temp(Kelvin):</li>
+                <li class="li-three" id="not-list">Humidity:</li>
+                <li class="li-four" id="not-list">Wind:</li>
+                <li class="li-five" id="not-list">UV Index:</li>
+            </ul>
         </div>
     </div>
     <div class="search-history row">
-        <ul class="list-group col-4">
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
-            <li class="list-group-item">A fourth item</li>
-            <li class="list-group-item">And a fifth one</li>
+        <ul class="list-group col-4" id="history-list">
+            <!-- <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>
+            <li class="list-group-item">City Search History</li>  -->
         </ul>
         <div class="col-2">
             <div class="card">
