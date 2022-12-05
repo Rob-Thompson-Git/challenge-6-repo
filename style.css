@@ -1,88 +1,26 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
+.navbar {
+    background: linear-gradient(to right, #0059ff, #000066);
 }
 
-.header {
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
+.navbar-brand {
+    font-size: 36px;
     color: white;
-    padding-bottom: 5px;
-    padding-top: 3px;
-    background-image: linear-gradient(to right, rgb(0, 71, 171,1), rgb(112, 41, 125,1));
-}
-
-.card.col-4 {
-    border: none;
-}
-
-#side-title{
-    font-size: 30px;
     font-weight: bold;
-    padding-bottom: 5px;
-    padding-left: 45px;
 }
 
-.btn-primary{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
+.search-header {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.main-container{
-    display: flex;
-    border: 1px solid black;
+.city-name {
+    font-size: 30px;
 }
 
-.box{
-    height: 200px;
-    width: 33vw;
-    border: 1px solid black;
-    display: flex;
-    position: relative;
+.forecast-date {
+    font-size: 18px;
 }
 
-#box-ul {
-    list-style-type: none;
-
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-/* .list-group{
-    display: flex ;
-}
-
-.list-group-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-li:not(#not-list) {
-    align-items: flex-end;
-    justify-content: center;
-    display: flex;
-    background-color: lightgray;
-    border-radius: 89px;
-}
-
-#history-list{
-list-style-position: inside;
-font-size: 20px;
-line-height: 2;
-}
-
-.card-title{
-    margin-top: 30px;
-    align-items: center;
-    justify-content: center;
-}
-
-.card-text{
-    margin-top: 100px;
+.col-12 {
+    font-weight: bold;
 }
